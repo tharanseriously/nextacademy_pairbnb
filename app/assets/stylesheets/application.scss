@@ -41,6 +41,9 @@ body {
     letter-spacing: 6px;
     font-size: 70px;
     margin-bottom: 20px;
+   @media only screen and (max-device-width: 480px){
+      font-size: 50px;
+    } 
   }
   .sub-text {
     font-size: 30px;
