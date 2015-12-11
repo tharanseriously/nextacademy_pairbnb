@@ -87,7 +87,7 @@ body {
   }
 
 .menu ul {
-  display:inline-block;
+  display:inline-block;  
 }
  
 .menu li {
@@ -97,6 +97,12 @@ body {
   font-size: small;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+.menu li:nth-child(n+2){
+  @media only screen and (max-device-width: 400px){
+      display:none;
+    }
 }
  
 .menu li:last-child {
