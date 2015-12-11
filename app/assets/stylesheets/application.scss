@@ -67,11 +67,17 @@ body {
 .para-one {
   width: 50%;
   float: left;
+  @media only screen and (max-device-width: 400px){
+      width: 100%;
+    }
 }
 
 .para-two {
   width: 50%;
   float: left;
+  @media only screen and (max-device-width: 400px){
+      width: 100%;
+    }
 }
  
 /*----- Menu -----*/
